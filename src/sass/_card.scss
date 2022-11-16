@@ -1,0 +1,23 @@
+.gallery {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.photo-card {
+}
+
+.img-card {
+  width: 20vw;
+  height: 15vw;
+}
+
+.info-card {
+}
+
+.info-item {
+  margin: 0 0 2px 0;
+  font-size: 12px;
+}
