@@ -2,7 +2,7 @@ export default function MakeCards(arrCards) {
   return arrCards
     .map(card => {
       return `<div class="photo-card">
-          <img src="${card.webformatURL}" alt=""${card.tags}" class="img-card" />
+          <a class="gallery__item" href="${card.largeImageURL}"><img src="${card.webformatURL}" alt=""${card.tags}" class="img-card gallery__image" /></a>
           <div class="info-card">
             <p class="info-item">
               <b>Likes: ${card.likes}</b>
